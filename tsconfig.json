@@ -14,7 +14,12 @@
       "swagger/*": ["src/swagger/*"]
     },
     "strict": true
-  },
+  },"assets":[
+    {
+      "include": "src/assets/**/*",
+      "outDir": "dist",
+    }
+  ],
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }

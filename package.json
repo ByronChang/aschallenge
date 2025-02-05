@@ -17,6 +17,7 @@
         "dotenv": "^16.4.7",
         "reflect-metadata": "^0.1.13",
         "rxjs": "^7.1.0",
+        "swagger-ui-dist": "^5.18.3",
         "swagger-ui-express": "^5.0.1"
     },
     "devDependencies": {

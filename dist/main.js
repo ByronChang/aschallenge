@@ -9,6 +9,7 @@ async function bootstrap() {
     dotenv.config();
     const app = await core_1.NestFactory.create(app_module_1.AppModule);
     (0, swagger_config_1.setupSwagger)(app);
+    app.enableCors();
     await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
