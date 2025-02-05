@@ -7,7 +7,8 @@ import 'tsconfig-paths/register';
 async function bootstrap() {
   dotenv.config();
   const app = await NestFactory.create(AppModule);
-  setupSwagger(app);  
-  await app.listen(3000);
+  setupSwagger(app);
+  
+  await app.listen(process.env.PORT || 3000);
 }
 bootstrap();

@@ -14,7 +14,7 @@ function setupSwagger(app) {
         extraModels: [],
         include: [e7_module_1.E7Module, e9_module_1.E9Module],
     });
-    swagger_1.SwaggerModule.setup('/', app, document);
+    swagger_1.SwaggerModule.setup('docs', app, document);
 }
 exports.setupSwagger = setupSwagger;
 exports.e7SwaggerDocs = {
