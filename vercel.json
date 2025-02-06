@@ -15,28 +15,28 @@
   ],
   "rewrites": [
     {
-      "source": "/docs/swagger-ui.css",
-      "destination": "/node_modules/swagger-ui-dist/swagger-ui.css"
+      "source": "/node_modules/swagger-ui-dist/swagger-ui.css",
+      "destination": "/docs/swagger-ui.css"
     },
     {
-      "source": "/docs/swagger-ui-bundle.js",
-      "destination": "/node_modules/swagger-ui-dist/swagger-ui-bundle.js"
+      "source": "/node_modules/swagger-ui-dist/swagger-ui-bundle.js",
+      "destination": "/docs/swagger-ui-bundle.js"
     },
     {
-      "source": "/docs/swagger-ui-standalone-preset.js",
-      "destination": "/node_modules/swagger-ui-dist/swagger-ui-standalone-preset.js"
+      "source": "/node_modules/swagger-ui-dist/swagger-ui-standalone-preset.js",
+      "destination": "/docs/swagger-ui-standalone-preset.js"
     },
     {
-      "source": "/docs/swagger-ui-init.js",
-      "destination": "/node_modules/swagger-ui-dist/swagger-ui-init.js"
+      "source": "/node_modules/swagger-ui-dist/swagger-ui-init.js",
+      "destination": "/docs/swagger-ui-init.js"
     },
     {
-      "source": "/docs/favicon-32x32.png",
-      "destination": "/node_modules/swagger-ui-dist/favicon-32x32.png"
+      "source": "/node_modules/swagger-ui-dist/favicon-32x32.png",
+      "destination": "/docs/favicon-32x32.png"
     },
     {
-      "source": "/docs/favicon-16x16.png",
-      "destination": "/node_modules/swagger-ui-dist/favicon-16x16.png"
+      "source": "/node_modules/swagger-ui-dist/favicon-16x16.png",
+      "destination": "/docs/favicon-16x16.png"
     }
   ]
 }
