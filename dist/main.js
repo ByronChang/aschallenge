@@ -10,6 +10,12 @@ async function bootstrap() {
     const app = await core_1.NestFactory.create(app_module_1.AppModule);
     (0, swagger_config_1.setupSwagger)(app);
     app.enableCors();
+    app.use('/', (req, res, next) => {
+        if (req.path === '/') {
+            return res.redirect('/docs');
+        }
+        next();
+    });
     await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
