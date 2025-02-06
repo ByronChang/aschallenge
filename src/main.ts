@@ -11,9 +11,6 @@ async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
   setupSwagger(app);
   app.enableCors()
-  /*app.useStaticAssets(join(__dirname, 'swagger-ui-dist'), {
-    prefix: '/docs',
-  });*/
   
   await app.listen(process.env.PORT || 3000);
 }
